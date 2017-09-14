@@ -1,0 +1,21 @@
+{
+    "name": "mburtscher/docker-php-client",
+    "autoload": {
+        "psr-4": {
+            "DockerPhpClient\\": "src"
+        }
+    },
+    "require": {
+        "jane/openapi-runtime": "^2.0"
+    },
+    "require-dev": {
+        "jane/open-api": "^3.0",
+        "symfony/yaml": "^3.3"
+    },
+    "authors": [
+        {
+            "name": "Matthias Burtscher",
+            "email": "matthias.burtscher@fusonic.net"
+        }
+    ]
+}

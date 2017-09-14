@@ -1,0 +1,9 @@
+<?php
+
+return [
+    'openapi-file' => 'swagger.yaml',
+    'namespace' => 'DockerPhpClient',
+    'directory' => __DIR__ . '/src',
+    'date-format' => \DateTime::RFC3339,
+    'reference' => true,
+];
